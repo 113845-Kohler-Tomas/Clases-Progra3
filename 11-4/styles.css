@@ -1,0 +1,83 @@
+
+body{
+    background-color: #0f0f0f;
+    --light-blue: #139ED9;
+    background-image: url(bg-clave-fiscal.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 100vh;
+}
+.contenendor{
+    display: flex;
+    height: 100vh;
+    align-items:center ;
+    justify-content: center;
+}
+
+.form{
+    background-color: #f2f2f2;
+    padding: 24px;
+    width: 342px;
+    height: 420px;
+    border-radius: 8px;
+    
+}
+h4{
+    font-size: 18px;
+    text-align: center;
+}
+.form label{
+    font-weight: bold;
+}
+.form input[type=text]{
+    margin-top: 10px;
+    margin-bottom: 16px;
+    display: block;
+    padding: 4px 16px ;
+    border-radius: 6px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+   
+}
+
+.form input[type=text]:focus{
+    border-color: var(--light-blue);
+}
+.form button{
+    background-color: var(--light-blue);
+    padding: 4px 16px;
+    width: 300px;
+    height: 30px;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    margin: 16px ;
+    font-weight: bold;
+    cursor: pointer;    
+
+}
+.form button.secundario{
+    background-color: #fafafa;
+    color: var(--light-blue)  ;
+    border: 1px solid var(--light-blue);
+}
+.form button.secundario:hover{
+    border: 1px solid #ddd;
+}
+
+.form a{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    margin: 16px ;
+}
+.form a:hover{
+    color: var(--light-blue);
+}
+.form .separador{
+    background-color: #ddd;
+    height: 1px;
+}
